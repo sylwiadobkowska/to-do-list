@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    width:90%;
+    width: 90%;
     max-width: 700px;
     margin: 20px auto 0;
     padding: 10px 0;
@@ -35,6 +35,14 @@ body {
     -webkit-box-shadow: 0px 0px 3px 0px rgba(195, 195, 197, 1);
     -moz-box-shadow: 0px 0px 3px 0px rgba(195, 195, 197, 1);
     box-shadow: 0px 0px 3px 0px rgba(195, 195, 197, 1);
+}
+
+.hr {
+    width: 100%;
+    color: #f0efef;
+    border-color: #f0efef;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 .container__input--legend {
@@ -76,6 +84,27 @@ body {
 }
 
 .tasks {
+    display:flex;
+    
     list-style-type: none;
     padding: 10px;
+}
+
+.button {
+    align-self: center;
+    width: 35px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    border-radius: 0%;
+}
+
+.button__remove {
+    justify-items: end;
+    background-color: red;
+}
+
+.trashcan {
+    height: 15px;
+    width: 10px;
 }
