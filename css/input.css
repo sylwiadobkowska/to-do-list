@@ -16,6 +16,10 @@
     margin: 0 0 0 20px;
 }
 
+.submitButton:active {
+    border: solid black 2px;
+}
+
 .inputSpan {
     width: 100%;
     display: flex;

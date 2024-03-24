@@ -28,6 +28,10 @@
     justify-self: end;
 }
 
+.button:active {
+    border: solid black 2px;
+}
+
 .task__done {
     text-decoration: line-through;
 }

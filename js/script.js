@@ -67,6 +67,12 @@
 
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
+        const resetForm = document.querySelector(".js-form");
+        resetForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            resetForm.reset();
+        });
+
         const inputField = document.querySelector(".js-newTask");
         document.getElementById("inputField").focus();
 
