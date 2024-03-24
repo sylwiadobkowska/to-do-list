@@ -63,7 +63,6 @@ body {
 }
 
 .newTask {
-    flex-grow: 1;
     height: 35px;
     padding: 10px;
     font-size: 14px;
@@ -80,12 +79,9 @@ body {
 
 .inputSpan {
     width: 100%;
-    display: flex;
 }
 
 .tasks {
-    display:flex;
-    
     list-style-type: none;
     padding: 10px;
 }
