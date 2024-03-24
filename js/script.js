@@ -48,13 +48,13 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li${task.done ? " style=\"text-decoration:line-through\"" : ""}>
+            <li class= "list__item">
             <button class="button button__done js-done">
             ${task.done ? " ✔" : ""}</button>
-            ${task.content}
+            <span class="task__content ${task.done ? "task__done" : ""}">${task.content}</span>
             <button class="button button__remove js-remove"><img class="trashcan" src="images/trashcan.png" alt="Trash can icon"></button>
-            <hr noshade class="hr">
             </li>
+            <hr noshade class="hr">
             `;
         };
         document.querySelector(".js-tasks").innerHTML = htmlString;
@@ -66,6 +66,7 @@
         event.preventDefault();
 
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        
 
         if (newTaskContent === "") {
             return;
