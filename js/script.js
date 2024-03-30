@@ -1,9 +1,5 @@
 {
     const tasks = [
-        {
-            content: "wyrzucić śmieci",
-            done: false,
-        },
 
     ];
 

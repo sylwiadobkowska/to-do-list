@@ -13,7 +13,6 @@
     border-style: none;
     height: 35px;
     font-size: 14px;
-    margin: 0 0 0 20px;
 }
 
 .submitButton:active {
@@ -23,4 +22,19 @@
 .inputSpan {
     width: 100%;
     display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 767px){
+    .inputSpan {
+        flex-wrap: wrap;
+    }
+
+    .newTask {
+        width: 100%;
+    }
+
+    .submitButton {
+        width: 100%;
+    }
 }
