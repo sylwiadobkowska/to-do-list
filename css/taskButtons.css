@@ -1,0 +1,34 @@
+.taskButton {
+    background-color: white;
+    border: none;
+    color: teal;
+    font-size: 14px;
+}
+
+.newButtonsSpan {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+.buttonsSpan {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .newButtonsSpan {
+        flex-wrap: wrap;
+    }
+
+    .buttonsSpan {
+        flex-wrap: wrap;
+    }
+    
+    .taskButton {
+        width: 100%;
+    }
+}

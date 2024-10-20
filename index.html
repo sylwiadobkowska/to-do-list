@@ -14,6 +14,7 @@
     <link href="css/input.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
+    <link href="css/taskButtons.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -35,9 +36,13 @@
     </div>
 
     <div class="container">
-        <h2 class="subHeader">Lista zadań</h2>
-        <button class="taskButton">Ukryj ukończone</button>
-        <button class="taskButton">Ukończ wszystkie</button>
+        <span class="newButtonsSpan">
+            <h2 class="subHeader">Lista zadań</h2>
+            <span class="buttonsSpan">
+            <button class="taskButton">Ukryj ukończone</button>
+            <button class="taskButton">Ukończ wszystkie</button>
+        </span>
+        </span>
         <hr noshade class="hr">
         <ul class="tasks js-tasks"></ul>
     </div>
